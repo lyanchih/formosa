@@ -2,5 +2,68 @@ title = "福爾摩沙 formosa"
 languageCode = "zh-tw"
 baseurl = "http://127.0.0.1:1313/"
 
-[params]
-description = "在台灣最專業的牛樟芝團隊監督下聯合推出的牛樟芝專屬品牌"
+[params.hero]
+title = "福爾摩沙 formosa"
+subtitle = "在台灣最專業的牛樟芝團隊監督下聯合推出的牛樟芝專屬品牌"
+buttonText = "關於我們"
+
+[params.about]
+enable = true
+title = "關於我們"
+subtitle = "簡短自介"
+endpoint = "至今"
+
+[[params.about.events]]
+img = "1.jpg"
+date = "2002 1月"
+title = "台灣食藥用菇菌類生技聯誼會 草創"
+description = "同學友誼、研究交流、建立聯絡"
+
+[[params.about.events]]
+img = "2.jpg"
+date = "2004 3月 6日"
+title = "社團法人台灣食藥用菇菌類生技協會 創辦"
+description = "創會首屆：各地發起、網羅精英、宗旨方針"
+
+[[params.about.events]]
+img = "3.jpg"
+date = "2004 - 2007"
+title = "變革與承接"
+description = "公益理念堅持與守護、奠定協會穩固基礎"
+
+[[params.about.events]]
+img = "4.jpg"
+date = "2008"
+title = "發展與成長"
+description = "全體理監事團結合作承接推動，一步一步穩定踏實，廣納各界優秀精英入會，相互交流研究"
+
+[params.portfolio]
+enable = true
+title = "產品"
+subtitle = "產品簡介"
+
+[params.team]
+enable = true
+title = "組織成員"
+subtitle = "黑衣成員"
+
+[[params.team.members]]
+img = "a.jpg"
+name = "容疑者A"
+position = "容疑者"
+
+[[params.team.members]]
+img = "b.jpg"
+name = "容疑者B"
+position = "容疑者"
+
+[[params.team.members]]
+img = "c.jpg"
+name = "容疑者C"
+position = "容疑者"
+
+[params.navigation]
+brand = "Formosa"
+about = "關於我們"
+portfolio = "產品"
+team = "成員"
