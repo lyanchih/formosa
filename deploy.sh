@@ -11,6 +11,8 @@ sed -i.bat '/baseurl = /s,=.*$,= "'$DEPLOY_URL'",' config.toml
 
 $DEPLOY_CMD
 
+git checkout config.toml
+
 git checkout $DEPLOY_BRANCH
 
 cp -R public/* .
