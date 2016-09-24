@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>福爾摩沙 formosa</title>
-    <link>http://127.0.0.1:1313/index.xml</link>
+    <link>https://lyanchih.github.io/formosa/index.xml</link>
     <description>Recent content on 福爾摩沙 formosa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <atom:link href="http://127.0.0.1:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lyanchih.github.io/formosa/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
