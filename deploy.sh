@@ -13,10 +13,10 @@ $DEPLOY_CMD
 
 git checkout $DEPLOY_BRANCH
 
-mv public/* .
+cp -R public/* .
 
-git commit -a -m "Relase"
+# git commit -a -m "Relase"
 
-git push
+# git push
 
-sed -i '/baseurl = /s,=.*$,= "'$DEPLOY_ORIGIN_URL'",' config.toml
+# sed -i.bat '/baseurl = /s,=.*$,= "'$DEPLOY_ORIGIN_URL'",' config.toml
