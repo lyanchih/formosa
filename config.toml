@@ -1,6 +1,6 @@
 title = "福爾摩沙 formosa"
 languageCode = "zh-tw"
-baseurl = "https://lyanchih.github.io/formosa"
+baseurl = "http://127.0.0.1:1313/"
 
 [params]
 custom_css = ["css/custom.css"]
