@@ -76,7 +76,7 @@ title = "產品"
 subtitle = "產品簡介"
 
 [params.team]
-enable = true
+enable = false
 title = "組織成員"
 subtitle = "黑衣成員"
 
