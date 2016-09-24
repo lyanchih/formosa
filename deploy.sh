@@ -17,7 +17,7 @@ git checkout $DEPLOY_BRANCH
 
 cp -R public/* .
 
-# git commit -a -m "Relase"
+git commit -a -m "Relase"
 
 # git push
 
