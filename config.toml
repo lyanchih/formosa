@@ -7,38 +7,68 @@ custom_css = ["css/custom.css"]
 
 [params.hero]
 title = "福爾摩沙 formosa"
-subtitle = "在台灣最專業的牛樟芝團隊監督下聯合推出的牛樟芝專屬品牌"
+subtitle = "最專業牛樟芝團隊監督下聯合推出牛樟芝專屬品牌"
 buttonText = "關於我們"
 
 [params.about]
 enable = true
-title = "關於我們"
-subtitle = "簡短自介"
+title = "延革"
+subtitle = ""
 endpoint = "至今"
 
 [[params.about.events]]
 img = "1.jpg"
-date = "2002 1月"
-title = "台灣食藥用菇菌類生技聯誼會 草創"
-description = "同學友誼、研究交流、建立聯絡"
+date = "2014年 初"
+title = "昌達事件讓牛樟芝產業面臨極大的衝擊"
+description = "不嚴謹的實驗完全否定多年來累積的實驗成果"
 
 [[params.about.events]]
 img = "2.jpg"
-date = "2004 3月 6日"
-title = "社團法人台灣食藥用菇菌類生技協會 創辦"
-description = "創會首屆：各地發起、網羅精英、宗旨方針"
+date = "2014年 3月 18日"
+title = "福爾摩沙牛樟股份有限公司創辦"
+description = "集合了七家理念一致的公司,轉投資共同成立一個公品牌"
 
 [[params.about.events]]
 img = "3.jpg"
-date = "2004 - 2007"
-title = "變革與承接"
-description = "公益理念堅持與守護、奠定協會穩固基礎"
+date = "2014年"
+title = "牛樟芝產品完成90天毒理實驗者"
+description = ""
 
-[[params.about.events]]
-img = "4.jpg"
-date = "2008"
-title = "發展與成長"
-description = "全體理監事團結合作承接推動，一步一步穩定踏實，廣納各界優秀精英入會，相互交流研究"
+
+[params.introduction]
+enable = true
+title = "公司簡介"
+
+[[params.introduction.context]]
+img = "group.jpg"
+title = "合作團隊"
+content = "皆是長期在推廣台灣牛樟芝的業者及學者，對於台灣真正牛樟芝甚為熟\
+悉，同時也是推動與制定台灣牛樟芝標準的重要人士，每位股東各自擁有不同培養方式的技術\
+與原料"
+
+[[params.introduction.context]]
+img = "tech.jpg"
+title = "獨有技術"
+content = "椴木栽培，固態栽培與皿式培養及液態發酵等，在原料上有自有菌種選育，椴\
+木材料自主生產，目前擁有近千噸合法牛樟椴木的優勢。在產能上擁有全台最大的固態原料栽\
+培中心"
+
+[[params.introduction.context]]
+img = "quality.jpeg"
+title = "品質檢驗"
+content = "每批原料皆進行SGS檢驗，品質穩定無明顯落差，經委託台美檢驗科技公\
+司進行產品90天毒理實驗已完成,並通過衛服部備查。目前還有一項產品正委託[財團法人成大\
+研究發展基金會]進行食品健字號實驗，預計明年第四季實驗完成申請健字號"
+
+[[params.introduction.context]]
+img = "brand.jpg"
+title = "品牌創新"
+content = "台灣第一個公品牌「福爾摩沙」是由台灣食藥用菇菌類生技協會與台灣\
+牛樟菇菌產業聯盟,輔導整合7間公司集中優質材料與資源，製作產品聯合推出，彼此之間由過\
+去互相競爭互相攻擊的狀態，轉而成為互助互惠的合夥人，而在行銷創新的部分，由七間公司\
+聯合彼此的人脈及銷售管道，集中資源聯合行銷，由菌種，植菌，培育，採收到產品製作與銷\
+售,形成一條龍的經營方式。一方面可以確保產品原料優質穩定，另一方面可以降低生產的成本\
+強化公司的競爭力並提供價廉物美的好產品給廣大的消費者。"
 
 [params.portfolio]
 enable = true
@@ -67,6 +97,7 @@ position = "容疑者"
 
 [params.navigation]
 brand = "Formosa"
-about = "關於我們"
+about = "延革"
+introduction = "公司簡介"
 portfolio = "產品"
 team = "成員"
