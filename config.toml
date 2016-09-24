@@ -7,7 +7,7 @@ custom_css = ["css/custom.css"]
 
 [params.hero]
 title = "福爾摩沙 formosa"
-subtitle = "最專業牛樟芝團隊監督下聯合推出牛樟芝專屬品牌"
+subtitle = "最專業牛樟芝團隊監督下聯合推出牛樟芝公品牌"
 buttonText = "關於我們"
 
 [params.about]
