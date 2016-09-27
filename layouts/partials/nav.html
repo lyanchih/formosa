@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}</a>
+            <img src="img/logos/{{ .Site.Params.navigation.brand_logo }}" class="brand_logo">
         </div>
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

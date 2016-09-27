@@ -1,4 +1,4 @@
-title = "福爾摩沙 formosa"
+qytitle = "福爾摩沙 formosa"
 languageCode = "zh-tw"
 baseurl = "http://127.0.0.1:1313/"
 
@@ -19,8 +19,8 @@ endpoint = "至今"
 [[params.about.events]]
 img = "1.jpg"
 date = "2013年 初"
-title = "昌達事件讓牛樟芝產業面臨極大的衝擊"
-description = "不嚴謹的實驗完全否定多年來累積的實驗成果"
+title = "<a href=\"http://www.appledaily.com.tw/appledaily/article/headline/20130522/35033635/#\">昌達事件</a>讓牛樟芝產業面臨極大的衝擊"
+description = "不嚴謹的實驗完全否定多年來累積的實驗成果<p>(圖片源自蘋果日報)</p>"
 
 [[params.about.events]]
 img = "2.jpg"
@@ -47,7 +47,7 @@ content = "皆是長期在推廣台灣牛樟芝的業者及學者，對於台灣
 與原料"
 
 [[params.introduction.context]]
-img = "tech.jpg"
+img = "tech.png"
 title = "獨有技術"
 content = "椴木栽培，固態栽培與皿式培養及液態發酵等，在原料上有自有菌種選育，椴\
 木材料自主生產，目前擁有近千噸合法牛樟椴木的優勢。在產能上擁有全台最大的固態原料栽\
@@ -96,6 +96,7 @@ name = "容疑者C"
 position = "容疑者"
 
 [params.navigation]
+brand_logo = "ACTformosa.png"
 brand = "Formosa"
 about = "延革"
 introduction = "公司簡介"
