@@ -22,3 +22,37 @@ header .intro-text .intro-heading {
     padding: 10px;
     background: #f1f1f1;
 }
+
+.brand_logo {
+    width: 53px;
+}
+
+#footer {
+    background: #555555;
+    padding: 50px 0;
+    color: #999999;
+}
+
+#footer h5 {
+    text-align: left;
+}
+
+#footer .blog-entries .item {
+    clear: both;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    border-bottom: solid 1px #555555;
+}
+
+#footer .blog-entries .item .image {
+    float: left;
+    width: 15%;
+    margin-right: 10px;
+}
+
+#footer .blog-entries .item .name {
+    width: 75%;
+    margin-left: 10px;
+    display: table-cell;
+    vertical-align: middle;
+}
