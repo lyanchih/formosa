@@ -35,12 +35,16 @@
             {{ partial "contact.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.footer.enable }}
-            {{ partial "footer.html" . }}
-        {{ end }}
-
         {{ if .Site.Params.portfolio.enable }}
             {{ partial "modals.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.extralinks.enable }}
+            {{ partial "extralinks.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.footer.enable }}
+            {{ partial "footer.html" . }}
         {{ end }}
 
         {{ partial "js.html" . }}

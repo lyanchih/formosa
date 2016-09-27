@@ -1,0 +1,30 @@
+<footer id="footer">
+    <div class="container">
+
+        <div class="col-md-4 col-sm-6">
+
+          <h4>{{ .Site.Params.footer.title }}</h4>
+
+            <div class="blog-entries">
+                {{ range .Site.Data.links }}
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="{{ .permalink }}">
+                          <img src="img/links/{{ .preview }}" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="{{ .permalink }}">{{ .title }}</a></h5>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+
+            <hr class="hidden-md hidden-lg">
+
+        </div>
+        <!-- /.col-md-4 -->
+
+    </div>
+    <!-- /.container -->
+</footer>

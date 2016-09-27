@@ -75,25 +75,9 @@ enable = true
 title = "產品"
 subtitle = "產品簡介"
 
-[params.team]
-enable = false
-title = "組織成員"
-subtitle = "黑衣成員"
-
-[[params.team.members]]
-img = "a.jpg"
-name = "容疑者A"
-position = "容疑者"
-
-[[params.team.members]]
-img = "b.jpg"
-name = "容疑者B"
-position = "容疑者"
-
-[[params.team.members]]
-img = "c.jpg"
-name = "容疑者C"
-position = "容疑者"
+[params.footer]
+enable = true
+title = "額外連結"
 
 [params.navigation]
 brand_logo = "ACTformosa.png"
@@ -102,3 +86,4 @@ about = "延革"
 introduction = "公司簡介"
 portfolio = "產品"
 team = "成員"
+links = "額外連結"
