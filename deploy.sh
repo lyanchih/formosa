@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DEPLOY_BRANCH=${DEPLOY_BRANCH:="gh-pages"}
-DEPLOY_URL=${DEPLOY_URL:="http://web.xn--tcwp9o15n.taipei"}
+DEPLOY_URL=${DEPLOY_URL:="http://web.xn--tcwp9o15n.taipei/"}
 DEPLOY_ORIGIN_URL=${DEPLOY_ORIGIN_URL:="http://127.0.0.1:1313/"}
 DEPLOY_CMD="hugo -D -t hugo-agency-theme"
 
