@@ -56,3 +56,7 @@ header .intro-text .intro-heading {
     display: table-cell;
     vertical-align: middle;
 }
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background: rgba(254, 209, 54, .3)
+}

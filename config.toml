@@ -73,7 +73,7 @@ content = "台灣第一個公品牌「福爾摩沙」是由台灣食藥用菇菌
 [params.portfolio]
 enable = true
 title = "產品"
-subtitle = "產品簡介"
+subtitle = "商品簡介"
 
 [params.footer]
 enable = true
