@@ -58,5 +58,10 @@ header .intro-text .intro-heading {
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-    background: rgba(254, 209, 54, .3)
+    background: rgba(254, 209, 54, .3);
+}
+
+.modal-body .tab-list .fa:hover {
+    background: #A6F9FD;
+    cursor: pointer;
 }

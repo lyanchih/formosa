@@ -75,6 +75,13 @@ enable = true
 title = "產品"
 subtitle = "商品簡介"
 
+[params.portfolio.sales.ruten]
+img="logos/ruten.jpg"
+
+[params.portfolio.sales.fb]
+img="logos/fb.jpg"
+
+
 [params.footer]
 enable = true
 title = "額外連結"

@@ -1,0 +1,53 @@
+{{ "<!-- Portfolio Modals -->" | safeHTML }}
+{{ range .Site.Data.projects }}
+<div class="portfolio-modal modal fade" id="portfolioModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <h2>{{ .title  | markdownify }}</h2>
+              <ul class="tab-list">
+                <li class="fa fa-info-circle fa-4x" href="#portfolioModal{{ .modalID }}Info" role="tab" data-toggle="tab"></li>
+                <li class="fa fa-flask fa-4x" href="#portfolioModal{{ .modalID }}Flask" role="tab" data-toggle="tab"></li>
+                <li class="fa fa-newspaper-o fa-4x" href="#portfolioModal{{ .modalID }}Examine" role="tab" data-toggle="tab"></li>
+                <li class="fa fa-shopping-bag fa-4x" href="#portfolioModal{{ .modalID }}Shopping" role="tab" data-toggle="tab"></li>
+              </ul>
+              <div class="tab-content">
+                <div class="tab-pane active fade in" id="portfolioModal{{ .modalID }}Info">
+                  <img class="img-responsive img-centered" src="img/portfolio/{{ .img }}" alt="">
+                  <p>{{ .description | markdownify }}</p>
+                  <ul class="list-inline">
+                    <li>{{ with $.Site.Params.portfolio.modal.category }}{{ . | markdownify }}{{ end }}{{ .category  | markdownify }}</li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="portfolioModal{{ .modalID }}Flask">
+                  {{ if .flask }}
+                  {{ partial .flask .}}
+                  {{ end }}
+                </div>
+                <div class="tab-pane fade" id="portfolioModal{{ .modalID }}Examine">
+                  {{ range .examine }}
+                  <p><a href="{{ .link }}" target="_blank">{{ .title | markdownify }}</a></p>
+                  {{ end }}
+                </div>
+                <div class="tab-pane fade" id="portfolioModal{{ .modalID }}Shopping">
+                  {{ range .sales }}
+                  <a href="{{ .link }}" target="_blank"><img src="img/{{index $.Site.Params.portfolio.sales .type "img" }}"/></a>
+                  {{ end }}
+                </div>
+              </div>
+              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttonText }}{{ . | markdownify }}{{ end }}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}
