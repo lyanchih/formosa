@@ -2,6 +2,9 @@ header .intro-text .intro-heading {
     font-size: 28px;
 }
 
+.intro-heading em {
+}
+
 .portfolio-link img {
     max-height: 200px;
     margin: auto;
@@ -20,11 +23,16 @@ header .intro-text .intro-heading {
 
 .text-comment {
     padding: 10px;
-    background: #f1f1f1;
 }
 
 .brand_logo {
-    width: 53px;
+    width: 120px;
+}
+
+@media (min-width: 768px) {
+    .navbar-default.navbar-shrink {
+        background-color: transparent;
+    }
 }
 
 #footer {
@@ -64,4 +72,67 @@ header .intro-text .intro-heading {
 .modal-body .tab-list .fa:hover {
     background: #A6F9FD;
     cursor: pointer;
+}
+
+.col-lg-12 > .section-heading {
+    color: #404040;
+    text-shadow: 0 2px 2px #999;
+}
+
+#about {
+    background: url(http://fdlife.com.tw/images/bg.jpg);
+}
+
+#portfolio {
+    background: url(http://4.bp.blogspot.com/-xK-kZ5vZl-U/UVZD5xMJoZI/AAAAAAAAFH8/khdFVT3UuSY/s1600/polished-blue-stone-seamless-web-texture.jpg);
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+    background-color: rgba(0,0,0,0);
+}
+
+.about_line {
+    border-bottom: solid 5px #999;
+    line-height: 2;
+}
+
+.intro_line {
+    border-bottom: solid 5px #38a7bb;
+    line-height: 2;
+}
+
+.critical_link {
+    color: rgb(187, 108, 108);
+}
+
+.critical_link {
+    color: rgb(236, 135, 135);
+}
+
+.timeline .timeline-heading h4 {
+    color: #666;
+}
+
+.timeline:before {
+    width: 4px;
+    background-color: #999;
+}
+
+.gray40 {
+    color: #666;
+}
+
+.portfolio-caption h4 {
+    color: #666;
+}
+.portfolio-caption p {
+    color: #999;
+}
+
+
+@media(min-width: 768px) {
+    header .intro-text .intro-lead-in {
+        font-size: 62px;
+        font-style: normal;
+    }
 }

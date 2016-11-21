@@ -1,15 +1,10 @@
 <!-- introduction Section -->
 <section id="introduction" class="bg-light-gray">
   <div class="container">
-    <div class="row">
+    <div class="row gray40">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">{{ with .Site.Params.introduction.title }}{{ . | markdownify }}{{ end }}</h2>
+        <h2 class="section-heading intro_line">{{ with .Site.Params.introduction.title }}{{ . | markdownify }}{{ end }}</h2>
         <h3 class="section-subheading text-muted">{{ with .Site.Params.introduction.subtitle }}{{ . | markdownify }}{{ end }}</h3>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        <h2>{{ .Title }}</h2>
       </div>
     </div>
   </div>
@@ -22,7 +17,7 @@
     <div class="container">
 
       <div class="row">
-        <div class="col-lg-5 col-sm-6">
+        <div class="col-lg-5 col-sm-6 gray40">
           <hr class="section-heading-spacer">
           <div class="clearfix"></div>
           <h2 class="section-heading">{{ .title }}</h2>
@@ -47,7 +42,7 @@
     <div class="container">
 
       <div class="row">
-        <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+        <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6 gray40">
           <hr class="section-heading-spacer">
           <div class="clearfix"></div>
           <h2 class="section-heading">{{ .title }}</h2>

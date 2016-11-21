@@ -1,4 +1,4 @@
-qytitle = "福爾摩沙 formosa"
+qytitle = "福爾摩沙牛樟 ACformosa"
 languageCode = "zh-tw"
 baseurl = "http://127.0.0.1:1313/"
 
@@ -6,8 +6,8 @@ baseurl = "http://127.0.0.1:1313/"
 custom_css = ["css/custom.css"]
 
 [params.hero]
-title = "福爾摩沙 formosa"
-subtitle = "最專業牛樟芝團隊監督下聯合推出牛樟芝公品牌"
+title = "福爾摩沙牛樟 ACformosa"
+subtitle = "<i>最專業牛樟芝團隊監督下聯合推出<em>牛樟芝公品牌</em></i>"
 buttonText = "關於我們"
 
 [params.about]
@@ -19,7 +19,7 @@ endpoint = "至今"
 [[params.about.events]]
 img = "1.jpg"
 date = "2013年 初"
-title = "<a href=\"http://www.appledaily.com.tw/appledaily/article/headline/20130522/35033635/#\">昌達事件</a>讓牛樟芝產業面臨極大的衝擊"
+title = "<a class=\"critical_link\" href=\"http://www.appledaily.com.tw/appledaily/article/headline/20130522/35033635/#\">昌達事件</a>讓牛樟芝產業面臨極大的衝擊"
 description = "不嚴謹的實驗完全否定多年來累積的實驗成果<p>(圖片源自蘋果日報)</p>"
 
 [[params.about.events]]
