@@ -80,11 +80,11 @@ header .intro-text .intro-heading {
 }
 
 #about {
-    background: url(http://fdlife.com.tw/images/bg.jpg);
+    background: url(../img/about/bg.jpg) center top repeat;
 }
 
 #portfolio {
-    background: url(http://4.bp.blogspot.com/-xK-kZ5vZl-U/UVZD5xMJoZI/AAAAAAAAFH8/khdFVT3UuSY/s1600/polished-blue-stone-seamless-web-texture.jpg);
+    background: url(../img/portfolio/bg.jpg) center top repeat;
 }
 
 #portfolio .portfolio-item .portfolio-caption {
