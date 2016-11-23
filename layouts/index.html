@@ -27,6 +27,10 @@
             {{ partial "portfolio.html" . }}
         {{ end }}
 
+        {{ if .Site.Params.examine.enable }}
+            {{ partial "examine.html" . }}
+        {{ end }}
+
         {{ if .Site.Params.clients_list.enable }}
             {{ partial "clients.html" . }}
         {{ end }}

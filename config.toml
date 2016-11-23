@@ -81,6 +81,11 @@ img="logos/ruten.jpg"
 [params.portfolio.sales.fb]
 img="logos/fb.jpg"
 
+[params.examine]
+enable = true
+title = "檢驗 & 認證"
+buttonText = "認證專區"
+
 
 [params.footer]
 enable = true

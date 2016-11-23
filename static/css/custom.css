@@ -65,6 +65,10 @@ header .intro-text .intro-heading {
     vertical-align: middle;
 }
 
+#portfolio .portfolio-item {
+    height: 360px
+}
+
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
     background: rgba(254, 209, 54, .3);
 }
@@ -129,10 +133,27 @@ header .intro-text .intro-heading {
     color: #999;
 }
 
+#examine .portfolio-item.text-center {
+    height: 235px
+}
 
 @media(min-width: 768px) {
     header .intro-text .intro-lead-in {
         font-size: 62px;
         font-style: normal;
     }
+
+    #examine .portfolio-item.text-center {
+        height: 250px
+    }
+}
+
+@media(min-width: 992px) {
+    #examine .portfolio-item.text-center {
+        height: 310px
+    }
+}
+
+.examine-more {
+    color: #666;
 }
