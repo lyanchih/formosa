@@ -4,7 +4,7 @@ build:
     - arjen/hugo-build:
         version: "0.17"
         theme: hugo-agency-theme
-        flags: --buildDrafts=true
+        flags: --baseURL=$DOMAIN --buildDrafts=true
 deploy:
   steps:
     - install-packages:
