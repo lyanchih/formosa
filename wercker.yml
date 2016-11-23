@@ -12,3 +12,4 @@ deploy:
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
         basedir: public
+        domain: www.xn--tcwp9o15n.taipei
