@@ -4,7 +4,7 @@ build:
     - arjen/hugo-build:
         version: "0.17"
         theme: hugo-agency-theme
-        flags: --baseURL=$DOMAIN --buildDrafts=true
+        flags: --baseURL=http://$DOMAIN --buildDrafts=true
 deploy:
   steps:
     - install-packages:
@@ -12,4 +12,4 @@ deploy:
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
         basedir: public
-        domain: www.xn--tcwp9o15n.taipei
+        domain: $DOMAIN
