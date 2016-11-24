@@ -9,12 +9,12 @@
     <div class="row">
       {{ range .Site.Data.examines }}
       <div class="col-md-2 col-sm-4 col-xs-6 portfolio-item text-center">
-        <a href="pdf/{{ .pdf | markdownify }}" target="_blank">
+        <a href="pdf/{{ .pdf }}" target="_blank">
           <div>
             <img src="img/examines/thumbnail/{{ .thumbnail }}"/>
           </div>
           <div class="portfolio-caption">
-            <h4>{{ .title | markdownify }}</h4>
+            <h4>{{ .title }}</h4>
           </div>
         </a>
       </div>
